@@ -92,3 +92,5 @@ jsList = json.loads(people)
 lst = sorted(jsList, key=lambda x: (x['age'], x['name']))
 for i in lst:
     print(f'{i["name"]}, {i["country"]}, {i["age"]}')
+
+print('test')
